@@ -1,7 +1,9 @@
 {
   "name": "rude-filter",
-  "version": "1.0.0",
-  "main": "index.js",
+  "description": "RudeFilter is a lightweight TypeScript library for filtering out rude and offensive words from text. With RudeFilter, you can quickly and easily add a layer of content moderation to your application",
+  "version": "1.0.1",
+  "main": "build/index.js",
+  "types": "src/index.d.ts",
   "scripts": {
     "build": "tsc",
     "start": "node src/index.js",
@@ -10,7 +12,14 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "@types/chai": "^4.3.4",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^18.15.11",
     "ts-node": "^10.9.1",
     "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
   }
 }
