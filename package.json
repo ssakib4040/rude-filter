@@ -1,0 +1,16 @@
+{
+  "name": "rude-filter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.ts",
+    "test": "mocha --require ./node_modules/ts-node/register tests/**/*.test.ts"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
