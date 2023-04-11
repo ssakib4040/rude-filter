@@ -4,7 +4,7 @@ A simple module that filters rude words from a given text.
 
 ## Installation
 
-Install my-project with npm
+Install with npm
 
 ```bash
   npm install rude-filter
