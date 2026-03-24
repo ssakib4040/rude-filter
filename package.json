@@ -5,7 +5,10 @@
   "main": "build/index.js",
   "types": "src/index.d.ts",
   "homepage": "https://github.com/ssakib4040/rude-filter#readme",
-  "repository": "https://github.com/ssakib4040/rude-filter",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ssakib4040/rude-filter.git"
+  },
   "scripts": {
     "build": "tsc",
     "test": "mocha --require ts-node/register tests/**/*.test.ts"
