@@ -1,8 +1,8 @@
 {
   "name": "rude-filter",
   "description": "RudeFilter is a lightweight TypeScript library for filtering out rude and offensive words from text. With RudeFilter, you can quickly and easily add a layer of content moderation to your application",
-  "version": "1.1.2",
-  "main": "build/index.js",
+  "version": "1.1.4",
+  "main": "index.cjs",
   "types": "build/index.d.ts",
   "homepage": "https://github.com/ssakib4040/rude-filter#readme",
   "repository": {
@@ -11,7 +11,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "test": "mocha --require ts-node/register tests/**/*.test.ts"
+    "test": "npm run build && mocha --require ts-node/register tests/**/*.test.ts && node tests/module-compat.test.cjs"
   },
   "license": "MIT",
   "devDependencies": {
@@ -25,6 +25,7 @@
   },
   "files": [
     "build/",
+    "index.cjs",
     "src/index.d.ts"
   ],
   "keywords": [
@@ -32,6 +33,9 @@
     "filter",
     "offensive",
     "words",
+    "word",
+    "bad",
+    "badwords",
     "text",
     "content",
     "moderation",
@@ -39,6 +43,13 @@
     "Text filtering",
     "Censorship",
     "Content filtering",
-    "Offensive language detection"
+    "Offensive language detection",
+    "profanity",
+    "censor",
+    "curse",
+    "swear",
+    "checker",
+    "detector",
+    "obscene"
   ]
 }
